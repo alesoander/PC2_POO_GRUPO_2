@@ -9,12 +9,54 @@ package paint1;
  * @author LAB-USR-CHIMBOTE
  */
 public class Lienzo {
+ int ancho;
+ int alto;
+ String colorFondo;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Lienzo() {
     }
+
+    public Lienzo(int ancho, int alto, String colorFondo) {
+        this.ancho = ancho;
+        this.alto = alto;
+        this.colorFondo = colorFondo;
+    }
+
+    public int getAncho() {
+        return ancho;
+    }
+
+    public void setAncho(int ancho) {
+        this.ancho = ancho;
+    }
+
+    public int getAlto() {
+        return alto;
+    }
+
+    public void setAlto(int alto) {
+        this.alto = alto;
+    }
+
+    public String getColorFondo() {
+        return colorFondo;
+    }
+
+    public void setColorFondo(String colorFondo) {
+        this.colorFondo = colorFondo;
+    }
+
+    @Override
+    public String toString() {
+        return "Lienzo{" + "ancho=" + ancho + ", alto=" + alto + ", colorFondo=" + colorFondo + '}';
+    }
+
     
+    public void setColorFondo(Color colorFondo) {
+        this.colorFondo = colorFondo;
+        repaint();
+    
+    
+    
+ 
 }
