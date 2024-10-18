@@ -11,8 +11,7 @@ package paint1;
 public class Herramienta {
     
 
-    public abstract void usar();
-}
+
     
     
 }

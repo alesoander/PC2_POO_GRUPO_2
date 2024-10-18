@@ -52,11 +52,6 @@ public class Lienzo {
     }
 
     
-    public void setColorFondo(Color colorFondo) {
-        this.colorFondo = colorFondo;
-        repaint();
-    
-    
     
  
 }
